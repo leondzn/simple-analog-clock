@@ -88,8 +88,6 @@ provided that they follow these guidelines:
 * The images should be square
 * Clock hands should be pointing at the 12 o' clock position
 * SVG or PNG can be used
-* Dimensions don't matter as long as all layers are square
-and are of the same sizes.
 
 **Example:**
 
