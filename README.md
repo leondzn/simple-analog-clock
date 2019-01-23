@@ -34,6 +34,7 @@ dependencies {
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="16dp"
+    app:hourTint="@color/colorPrimary"                                        
     app:secondTint="@color/colorAccent" />
 ```
 
