@@ -1,9 +1,29 @@
-# simple-analog-clock
+# simple-analog-clock 
+
+[![Release](https://jitpack.io/v/leondzn/simple-analog-clock.svg)](https://jitpack.io/#leondzn/simple-analog-clock)
 
 A simple clock view. The clock drawables can be changed with
 your own custom assets.
 
 ![Preview](previews/preview.png)
+
+## Installation
+
+```gradle
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
+```
+
+```gradle
+dependencies {
+  implementation 'com.github.leondzn:simple-analog-clock:{$version}'
+}
+```
+
 
 ## Usage
 
