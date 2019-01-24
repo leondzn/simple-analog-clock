@@ -7,6 +7,11 @@ your own custom assets.
 
 ![Preview](previews/preview.png)
 
+## Prerequisites
+
+Your project must be using AndroidX artifacts instead of Support Libraries. 
+Otherwise your project build will fail due to `Manifest merger failed` error.
+
 ## Installation
 
 ```gradle
