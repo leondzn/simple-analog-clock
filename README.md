@@ -20,7 +20,7 @@ allprojects {
 
 ```gradle
 dependencies {
-  implementation 'com.github.leondzn:simple-analog-clock:{$version}'
+  implementation 'com.github.leondzn:simple-analog-clock:${version}'
 }
 ```
 
