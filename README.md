@@ -1,9 +1,29 @@
-# simple-analog-clock
+# simple-analog-clock 
+
+[![Release](https://jitpack.io/v/leondzn/simple-analog-clock.svg)](https://jitpack.io/#leondzn/simple-analog-clock)
 
 A simple clock view. The clock drawables can be changed with
 your own custom assets.
 
 ![Preview](previews/preview.png)
+
+## Installation
+
+```gradle
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
+```
+
+```gradle
+dependencies {
+  implementation 'com.github.leondzn:simple-analog-clock:${version}'
+}
+```
+
 
 ## Usage
 
@@ -14,6 +34,7 @@ your own custom assets.
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="16dp"
+    app:hourTint="@color/colorPrimary"                                        
     app:secondTint="@color/colorAccent" />
 ```
 
@@ -68,8 +89,6 @@ provided that they follow these guidelines:
 * The images should be square
 * Clock hands should be pointing at the 12 o' clock position
 * SVG or PNG can be used
-* Dimensions don't matter as long as all layers are square
-and are of the same sizes.
 
 **Example:**
 
