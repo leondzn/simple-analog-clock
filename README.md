@@ -2,6 +2,7 @@
 
 [![Release](https://jitpack.io/v/leondzn/simple-analog-clock.svg)](https://jitpack.io/#leondzn/simple-analog-clock)
 [![API](https://img.shields.io/badge/API-21%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=21)
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-simple--analog--clock-green.svg?style=flat )]( https://android-arsenal.com/details/1/7481 )
 
 A simple clock view. The clock drawables can be changed with
 your own custom assets.
